@@ -1,0 +1,44 @@
+@import "tailwindcss";
+/* Theme 1 – Light, Minimalist */
+.theme1 {
+  @apply bg-white text-black font-sans;
+}
+
+.theme1 header {
+  @apply bg-white text-black;
+}
+
+.theme1 select,
+.theme1 a {
+  @apply bg-white text-black border-black;
+}
+
+/* Theme 2 – Dark Mode, Serif */
+.theme2 {
+  @apply bg-gray-900 text-white font-serif;
+}
+
+.theme2 header {
+  @apply bg-gray-800 text-white;
+}
+
+.theme2 select,
+.theme2 a {
+  @apply  text-white border-white;
+}
+
+/* Theme 3 – Colorful, Card-based */
+.theme3 {
+  @apply text-black bg-amber-50;
+  font-family: 'Pacifico', cursive;
+}
+
+.theme3 header {
+  @apply text-white bg-fuchsia-100;
+}
+
+.theme3 select,
+.theme3 a {
+  @apply  text-black;
+}
+
