@@ -1,8 +1,7 @@
-import React,{useContext} from 'react'
+import {useContext} from 'react'
 import { ThemeContext } from '../context/ThemeContext';
 const About = () => {
    const { theme } = useContext(ThemeContext);
-
 
   return (
     <div className='text-center my-10 min-h-screen'>
