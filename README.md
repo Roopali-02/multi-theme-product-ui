@@ -2,7 +2,7 @@
 This project demonstrates a dynamic theme switcher built using React, Tailwind CSS and TypeScript. It supports three distinct UI themes and showcases products fetched from an API, displayed in a responsive layout.
 
 ## Live Link
-
+https://multi-theme-product-ui.vercel.app/
 
 ## Tech Stack
 - React + Vite
@@ -42,7 +42,7 @@ This project demonstrates a dynamic theme switcher built using React, Tailwind C
   - `pages/` – Page-level components like Home, About, Contact
   - `App.tsx` – Main component with routing
 
-  ## Features
+## Features
 - Dynamic theme switching with persistence
 - Product grid with responsive layout
 - Hover animations
